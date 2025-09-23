@@ -32,8 +32,8 @@ int main(){
     stack s;
     s.top=-1;
     push(s,11);
-    push(s,22);
-    push(s,33);
+    push(s,2);
+    push(s,3);
     cout<<"Top element is: "<<IsEmpty(s)<<endl;
     cout<<"Popped element is: "<<pop(s)<<endl;
     cout<<"Top element is: "<<IsEmpty(s)<<endl;
